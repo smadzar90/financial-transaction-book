@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Transaction Book Form</title>
+    <link rel="stylesheet" href="mainDesign.css">
+</head>
+<body>
+    <div>
+    <h2>FINANCIAL TRANSACTION KEEPER</h2>
+    <form action="transactionInfo.php" method="post">
+        
+        <table>
+           <tr>
+            <td>
+                Transaction Name:
+            </td>
+            <td>
+                <input id="style" type="text" placeholder=" Enter a transaction name:" name="transaction_name"/>
+                <br>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                Transaction Type:
+            </td>
+            <td>
+                <input id="style" type="radio" value="Purchase" name="transaction_type"/> <label>Purchase</label>
+                <input  type="radio" value="Income" name="transaction_type"/> <label>Income</label>
+                <input  type="radio" value="Tax Payment" name="transaction_type"/> <label>Tax Payment</label>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                Overall Amount:
+            </td>
+            <td>
+                <input id="style" type="text" placeholder=" Enter an overall amount:" name="transaction_amount"/>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                Date of Transaction:
+            </td>
+            <td>
+                <input id="style" type="date" name="transaction_date" 
+            </td>
+           </tr>
+           <tr>
+            <td>    
+                Beneficaries: <br>
+            </td>
+            <td>
+                <select name="transaction_beneficaries[]" size="4" multiple>
+                    <option value="Father">Father</option>
+                    <option value="Mother">Mother</option>
+                    <option value="Brother">Brother</option>
+                    <option value="Sister">Sister</option>
+                </select>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <input  type="submit" name="action" value="Create a New Trasaction">
+            </td>
+            <td>
+                <input id="btn1" type="submit" name="action"  value="List all Transactions">
+                <input  id="balance" type="submit" name="action" value="Overall balance">
+            </td>
+           </tr>
+           <tr>
+            
+            <td>
+                <input id="btn2" type="submit" name="action"  value="Search by Type">
+            </td>
+           </tr>
+
+        </table>
+
+
+
+    </form>
+    </div>
+
+
+</body>
+
+</html>

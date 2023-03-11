@@ -1,0 +1,96 @@
+
+html {
+    background: url("image3.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+body {
+    background-color: rgb(52, 86, 139);
+    font-size: 19px;
+    font: arial;    
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+input#btn1 {
+    margin: 0px 0px 0px 4px;
+}
+
+input#btn2 {
+    margin: 5px 0px 0px 0px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 6px 0px;
+    border-radius: 5px;
+    border: 1px solid  rgb(52, 86, 139);
+}
+
+h2 {
+   
+   color: rgb(9, 80, 127);
+   font-style: oblique;
+   font: Helvetica;
+}
+
+input#balance {
+    margin: 0px 0px 0px 12px;
+}
+
+input[type=date] {
+    width: 50%;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid  rgb(52, 86, 139);
+}
+
+select {
+    padding: 4px 4px;
+    border-radius: 6px;
+    border: 1px solid  rgb(52, 86, 139);
+}
+
+input[type=radio] {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+
+
+div {
+    
+    border: 5px outset #00ABE4;
+    padding: 10px 5px 12px 12px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 540px;
+    border-radius: 30px;
+}
+
+label {
+    position: relative;
+    top: -3px;
+}
+
+input[type=submit] {
+    border-radius: 15px;
+    background-color: #00ABE4;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 5px;
+    border: 1px solid  rgb(52, 86, 139);
+}
+
+input[type=submit]:hover {background-color: rgb(16, 38, 74)}

@@ -1,0 +1,35 @@
+
+html {
+    background: url("image3.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3 {
+   font-style: oblique;
+   font: Helvetica;
+}
+
+tbody {
+    display: block;
+    max-height: 515px;
+    overflow: scroll;
+}
+
+tr:hover {background-color: #ddd}
+
+th {
+    background-color: #00ABE4;
+    color: white;
+}
+
+td, th {
+    padding: 8px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd; 
+}
