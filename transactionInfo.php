@@ -10,7 +10,7 @@
 
 $servername = "localhost";
 $username = "smadzar";
-$password = "12345";
+$password = "/";
 $database = "smadzarDB";
 
 // Create connection
